@@ -6,6 +6,7 @@ function max(n1,n2){
         return n2;
     } 
 }
+
 function maxOfThree(n1,n2,n3){
    return max(max(n1,n2),n3);
 }
