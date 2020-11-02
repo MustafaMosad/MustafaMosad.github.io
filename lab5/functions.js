@@ -93,12 +93,12 @@ console.log("Expected output of reverse(\"nice\") is ecin "+myFunctionTest("ecin
 console.log("Expected output of reverse(\"okay\") is yako "+myFunctionTest("il", ()=>reverse("okay")));
 
 console.log("\n");
-console.log("Expected output of findLongestWord([okay,mostafa,vowel]) is 5 "+myFunctionTest(5, ()=>findLongestWord("okay","mostafa","vowel")));
-console.log("Expected output of findLongestWord([okay,mostafa,vowel]) is 5 "+myFunctionTest(3, ()=>findLongestWord("okay","mostafa","vowel")));
+console.log("Expected output of findLongestWord([okay,mostaf,vowel]) is 5 "+myFunctionTest(5, ()=>findLongestWord("okay","mostaf","vowel")));
+console.log("Expected output of findLongestWord([okay,mostaf,vowel]) is 5 "+myFunctionTest(3, ()=>findLongestWord("okay","mostaf","vowel")));
 
 console.log("\n");
-console.log("Expected output of filterLongWords(4,[okay,mostafa,vowel]) is [mostafa,vowel] "+myFunctionArrayTest(['mostafa','vowel'], ()=>filterLongWords(4,'okay','mostafa','vowel')));
-console.log("Expected output of filterLongWords(4,[okay,mostafa,vowel]) is [mostafa,vowel] "+myFunctionArrayTest(['mostafa'], ()=>filterLongWords(4,'okay','mostafa','vowel')));
+console.log("Expected output of filterLongWords(4,[okay,mostaf,vowel]) is [mostaf,vowel] "+myFunctionArrayTest(['mostaf','vowel'], ()=>filterLongWords(4,'okay','mostaf','vowel')));
+console.log("Expected output of filterLongWords(4,[okay,mostaf,vowel]) is [mostaf,vowel] "+myFunctionArrayTest(['mostaf'], ()=>filterLongWords(4,'okay','mostaf','vowel')));
 
 console.log("\n");
 console.log("Expected output of mapExample([5,8,3,1]) is [50,80,30,10] "+myFunctionArrayTest([50,80,30,10], ()=>mapExample(5,8,3,1)));
